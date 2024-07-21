@@ -1,0 +1,7 @@
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY NOT NULL,
+    username TEXT UNIQUE NOT NULL,
+    role TEXT NPT NULL DEFAULT 'user'
+);
+
+INSERT INTO users ()
